@@ -2,6 +2,7 @@
   <main class="task-create">
     <h1 class="page-title">Task Create view</h1>
     <form class="login-form" @submit.prevent="create">
+      
       <label class="label">
         Title:
         <input v-model="task.title" class="text-input" type="text" />
